@@ -174,7 +174,7 @@ hr {
   position: relative;
   bottom:150px;
 }
-@media screen and (min-width:800px){
+@media screen and (min-width:1200px){
   .pic1{
     border-radius: 100%;
     width:15rem;
@@ -183,15 +183,16 @@ hr {
     top:600px;
 
   }
+
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:1200px){
 
 
   .pic2{
     border-radius: 100%;
     width:12rem;
     position: relative;
-  right:200px;
+  right:300px;
     top: 50px;
   }
   .pic3{
@@ -221,13 +222,5 @@ hr {
 
 
   }
-  
-}
 
-/*This is the anti float
-  .desc1{
-    clear:left;
-  }
-  .desc2{
-    clear: right;
-  } */
+}
